@@ -72,4 +72,4 @@ export default App
 
 ```
 
-[//]: # (![Alt text]&#40;relative%20path/to/img.jpg?raw=true "Title"&#41;)
+![Alt text](./Project-Image.png?raw=true "Thumb")
