@@ -1,0 +1,54 @@
+.searchWraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.searchBox {
+    width: 250px;
+    padding: 10px 30px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+}
+.searchIcon {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    padding-right: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .searchBox {
+        width: 300px;
+    }
+}
+.tableWraper {
+    padding: 0!important;
+}
+.table {
+    margin: 0!important;
+}
+.sortableIcon::before {
+    content: "\2191 \2193";
+    padding-right: 5px;
+    cursor: pointer;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+.footerCountOfSelect {
+    padding: 5px;
+    border-radius: 5px;
+}
+.footerCountOfItem {
+    padding: 10px 15px;
+}
+.footerCountOfPagination {
+    padding: 15px 15px;
+    margin-bottom: 0!important;
+}
